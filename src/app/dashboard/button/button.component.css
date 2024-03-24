@@ -1,0 +1,21 @@
+.heroes__button {
+  color: white;
+  background-color: darkgray;
+  display: block;
+  font-size: 20px;
+  max-width: 100px;
+  padding: 15px 20px;
+  text-decoration: none;
+  word-wrap: break-word;
+  transition: 0.6;
+}
+
+.heroes__button:hover {
+  background-color: gray;
+  color: blue;
+}
+
+.heroes__hero {
+  margin: 0;
+}
+

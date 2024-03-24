@@ -1,0 +1,10 @@
+<div class="main-info">
+<h1 class="hero-header">{{ name | uppercase}} Details</h1>
+<p class="hero-id">id: {{ editedHero?.id }}</p>
+<label>
+  <span class="hero-name">Hero name:</span>
+  <input type="text" [(ngModel)]="name">
+</label>
+<br>
+<a routerLink="../../" class="back-button">Back</a>
+</div>

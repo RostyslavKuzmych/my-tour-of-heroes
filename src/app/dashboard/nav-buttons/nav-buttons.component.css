@@ -1,0 +1,56 @@
+.nav__item {
+  margin: 0;
+}
+
+.nav__button {
+  height: 40px;
+  padding: 0 10px;
+  font-size: 12px;
+  line-height: 40px;
+  text-align: center;
+  background-color: gainsboro;
+  display: block;
+  color: black;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: 0.6s;
+}
+
+.active {
+  background-color: gray;
+  color: white;
+}
+
+.nav__button:hover {
+  color: blue;
+}
+
+.nav__list {
+  margin: 0;
+  list-style-type: none;
+  padding: 0 10px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.main-header {
+  font-size: 40px;
+  color: blue;
+  margin: 10px;
+}
+
+.nav {
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.second-header {
+  margin: 10px 10px 10px 15px;
+}
+
+.main-nav {
+  margin: 20px 0 15px 20px;
+  padding: 0;
+}
