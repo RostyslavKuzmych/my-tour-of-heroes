@@ -11,6 +11,7 @@
     "test": "ng test",
     "serve:ssr:tour_of_heroes": "node dist/tour_of_heroes/server/server.mjs"
   },
+  "homepage": "https://rostyslavkuzmych.github.io/my-tour-of-heroes/",
   "private": true,
   "dependencies": {
     "@angular/animations": "^17.3.0",
