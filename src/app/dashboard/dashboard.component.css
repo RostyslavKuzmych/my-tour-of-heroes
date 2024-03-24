@@ -1,0 +1,21 @@
+.second-header {
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.container-buttons {
+  margin: 0;
+}
+
+.heroes__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+

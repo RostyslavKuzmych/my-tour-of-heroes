@@ -1,0 +1,6 @@
+<li class="heroes__hero">
+   <a class="heroes__id" [routerLink]="hero?.id + '/edit'">{{ hero?.id }}</a>
+   <a [routerLink]="hero?.id + '/edit'" class='heroes__button'>
+      {{ hero?.name }}
+   </a>
+</li>
